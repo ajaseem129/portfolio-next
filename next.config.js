@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { withPlaiceholder } = require('@plaiceholder/next');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -11,4 +10,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withPlaiceholder(nextConfig);
+module.exports = nextConfig;
