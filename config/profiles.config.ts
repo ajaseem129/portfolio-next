@@ -18,7 +18,7 @@ export const socialProfiles: Profile[] = [
     icon: LinkedInSvg,
   },
   {
-    to: 'https://github.com/ajaseem129',
+    to: 'https://github.com/ajaseem129/',
     label: 'Github',
     icon: GithubSvg,
   },

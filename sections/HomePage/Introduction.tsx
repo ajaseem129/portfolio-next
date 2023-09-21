@@ -1,4 +1,4 @@
-import PortraitImage from '../../public/images/portrait.jpg';
+import PortraitImage from '../../public/images/picture.jpeg';
 
 import { styled, wavingAnimation } from '@config/stitches.config';
 
@@ -65,20 +65,22 @@ export const IntroductionSection: React.FC = () => {
         <div className="description">
           <h3 className="title">Nice to have you here.</h3>
           <p className="subtitle">
-            Hey, I&apos;m Konstantin. I am a freelance web developer with a
+            Hey, I&apos;m Abdul. I am a freelance web developer with a
             background in product management.
           </p>
           <p>
-            My passion has always been at the intersection of product and
-            engineering. I mostly work with startups and small companies to
-            create beautiful digital products and web applications. Besides, I
-            write regularly on my blog about web and product development as well
-            as careers.
+            As a full-stack developer and tech enthusiast, I bring a wealth of
+            skills and a passion for innovation to the table. My experience in
+            creating websites and managing server spaces, combined with my love
+            for working through the command line, make me a valuable asset to
+            any team. My passion has always been at the intersection of product
+            and engineering. I mostly work with startups and small companies to
+            create beautiful digital products and web applications.
           </p>
         </div>
         <Picture
           src={PortraitImage}
-          alt="Konstantin Münster Portrait"
+          alt="Abdul Jaseem Portrait"
           placeholder="blur"
           height="22rem"
           width="20rem"
@@ -87,7 +89,7 @@ export const IntroductionSection: React.FC = () => {
         />
       </ContentWrapper>
       <ContentWrapper className="bookmarks">
-        <Card
+        {/* <Card
           background="secondary50"
           backgroundEmoji="secondary100"
           emoji="✍️"
@@ -98,7 +100,7 @@ export const IntroductionSection: React.FC = () => {
             Learn how to build digital products with React and other modern web
             development tools.
           </p>
-        </Card>
+        </Card> */}
         <Card
           background="secondary50"
           backgroundEmoji="secondary100"

@@ -5,8 +5,8 @@ import { getAllBlogPosts } from '@lib/mdx/blog';
 import { getAllProjects } from '@lib/mdx/projects';
 import { HeroSection } from '@sections/HomePage/Hero';
 import { IntroductionSection } from '@sections/HomePage/Introduction';
-import { LatestPostsSection } from '@sections/HomePage/LatestPosts';
-import { LatestProjectsSection } from '@sections/HomePage/LatestProjects';
+// import { LatestPostsSection } from '@sections/HomePage/LatestPosts';
+// import { LatestProjectsSection } from '@sections/HomePage/LatestProjects';
 import { ContactCard } from '@components/Card';
 import { byNewestDate } from '@utils/sort';
 import { getBaseUrl } from '@utils/getBaseUrl';
@@ -31,14 +31,14 @@ type HomePageProps = {
   projects: EnrichedProjectMatter[];
 };
 
-const HomePage: NextPage<HomePageProps> = props => {
+const HomePage: NextPage<HomePageProps> = () => {
   return (
     <>
       <SocialProfileJsonLd {...jsonLdProps} />
       <HeroSection />
       <IntroductionSection />
-      <LatestPostsSection posts={props.posts} />
-      <LatestProjectsSection projects={props.projects} />
+      {/* <LatestPostsSection posts={props.posts} />
+      <LatestProjectsSection projects={props.projects} /> */}
       <ContactCard />
     </>
   );

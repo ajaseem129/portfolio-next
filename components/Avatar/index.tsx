@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import { styled } from '@config/stitches.config';
-import AvatarImage from '../../public/images/avatar.jpg';
+import AvatarImage from '../../public/images/avatar_bitmoji.png';
 
 const StyledAvatar = styled('div', {
   display: 'flex',
@@ -20,7 +20,7 @@ export const Avatar: React.FC<AvatarProps> = props => {
     <StyledAvatar data-avatar>
       <Image
         src={AvatarImage}
-        alt="Konstantin Münster Avatar"
+        alt="Abdul Jaseem Avatar"
         height={size}
         width={size}
         placeholder={size > 40 ? 'blur' : undefined}
