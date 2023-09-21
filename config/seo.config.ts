@@ -39,18 +39,18 @@ export const generateSeoProps = (
         ]
       : undefined,
     type: input.type ?? 'website',
-    site_name: 'konstantin',
+    site_name: 'drak.tbag.life',
     article: input.article,
     profile: {
-      firstName: 'Konstantin',
-      lastName: 'Münster',
-      username: 'konstantinmuenster',
+      firstName: 'Abdul',
+      lastName: 'Jaseem',
+      username: 'ajaseem129',
     },
   },
 });
 
 export const defaultSeoProps = generateSeoProps({
-  title: 'Konstantin Münster – Web & Product Developer',
+  title: 'Abdul Jaseem C K – Tech Lead',
   description:
     'I am a freelance developer who helps individuals and companies build better web applications.',
   url: baseUrl,
