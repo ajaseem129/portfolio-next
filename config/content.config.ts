@@ -1,6 +1,5 @@
 import path from 'path';
 
-import { BlogPostMatter } from 'pages/blog/[slug]';
 import { ProjectMatter } from 'pages/projects/[slug]';
 
 export const REPOSITORY_NAME = 'portfolio-next';
@@ -25,7 +24,7 @@ export const MDXGeneratedImgDir = {
 };
 
 export type ContentMatter = {
-  [MDXContentType.BlogPost]: BlogPostMatter;
+  [MDXContentType.BlogPost]: [];
   [MDXContentType.Project]: ProjectMatter;
 };
 

@@ -1,11 +1,9 @@
 import { Feed } from 'feed';
 import { writeFileSync } from 'fs';
 
-import { getAllBlogPosts } from '@lib/mdx/blog';
 import { socialProfiles } from '@config/profiles.config';
 import { getEmailAddress } from '@utils/getEmailAddress';
 import { getBaseUrl } from '@utils/getBaseUrl';
-import { byNewestDate } from '@utils/sort';
 
 export const generateRssFeed = async () => {
   const baseUrl = getBaseUrl();
@@ -31,19 +29,6 @@ export const generateRssFeed = async () => {
       json: `${baseUrl}/rss.json`,
     },
     author,
-  });
-
-  (await getAllBlogPosts()).sort(byNewestDate).forEach(post => {
-    feed.addItem({
-      title: post.title,
-      id: `${baseUrl}/${post.path}`,
-      link: `${baseUrl}/${post.path}`,
-      description: post.summary,
-      content: post.summary,
-      author: [author],
-      contributor: [author],
-      date: new Date(post.publishedAt),
-    });
   });
 
   console.log('\n Writing rss.xml in public directory...');
