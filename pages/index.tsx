@@ -18,7 +18,7 @@ import type { EnrichedProjectMatter } from './projects/[slug]';
 const baseUrl = getBaseUrl();
 
 const jsonLdProps: SocialProfileJsonLdProps = {
-  name: 'Konstantin Münster',
+  name: 'Abdul Jaseem',
   type: 'Person',
   url: baseUrl,
   sameAs: socialProfiles
