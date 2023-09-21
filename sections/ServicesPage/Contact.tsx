@@ -93,7 +93,7 @@ export const ContactSection: React.FC<ContactSectionProps> = props => {
             <div className="contact-person">
               <Avatar size={48} />{' '}
               <div className="contact-person-name">
-                Konstantin Münster <span>Open for freelance work</span>
+                Abdul Jaseem <span>Open for freelance work</span>
               </div>
             </div>
           </div>
