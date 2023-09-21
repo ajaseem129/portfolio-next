@@ -1,9 +1,9 @@
-import PortraitImage from '../../public/images/portrait-sitting.jpg';
+// import PortraitImage from '../../public/images/portrait-sitting.jpg';
 
 import { styled } from '@config/stitches.config';
 import { ContentWrapper } from '@components/Layout';
-import { Picture } from '@components/Picture';
-import { SocialProfiles } from '@components/SocialProfiles';
+// import { Picture } from '@components/Picture';
+// import { SocialProfiles } from '@components/SocialProfiles';
 import { Link } from '@components/Link';
 
 const StyledAboutSection = styled('section', {
@@ -49,13 +49,13 @@ export const AboutSection: React.FC = () => {
           <h3 className="title">A developer who cares about the product.</h3>
           <p>
             For me, programming is about bringing ideas and products to life.
-            This is the reason why I started learning web development while
-            working as a product manager.
+            Its something i’ve grown to enjoy over my time in the domain.
           </p>
           <p>
-            Nowadays, I support startups and small companies as a product
-            developer. In that, I develop modern frontend applications and
-            engage in product-related matters.
+            Most of my expereience is with startups and small companies, varying
+            from an App Developer to Tech Lead. I engage in all development
+            matters, from deciding architecture to downright setting up products
+            from scratch.
           </p>
           <p>
             So if you are looking for a hands-on developer who cares about users
@@ -63,17 +63,18 @@ export const AboutSection: React.FC = () => {
             <Link to="#contact-section">let’s put our heads together</Link>!
           </p>
         </div>
-        <div className="about-picture">
+        {/* <div className="about-picture">
           <Picture
             src={PortraitImage}
             placeholder="blur"
-            alt="Konstantin Münster Portrait"
+            alt="Abdul Jaseem Portrait"
             height="22rem"
             width="20rem"
             className="portrait"
           />
           <SocialProfiles />
-        </div>
+        </div> */}
+        {/* <SocialProfiles /> */}
       </ContentWrapper>
     </StyledAboutSection>
   );

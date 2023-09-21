@@ -45,7 +45,7 @@ export const HeroSection: React.FC<HeroSectionProps> = props => {
           <h1>Let&apos;s Build Together</h1>
           <p>
             Looking for a product-minded developer? I am a freelance web /
-            product developer with over 5 years of experience and a background
+            product developer with over 3 years of experience and a background
             in product management.
           </p>
         </div>
