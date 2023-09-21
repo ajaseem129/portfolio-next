@@ -8,10 +8,10 @@ export const headerNavigation: NavigationItem[] = [
     to: '/services',
     label: 'Services',
   },
-  {
-    to: '/blog',
-    label: 'Blog',
-  },
+  // {
+  //   to: '/blog',
+  //   label: 'Blog',
+  // },
   // {
   //   to: '/about',
   //   label: 'About',
@@ -19,12 +19,12 @@ export const headerNavigation: NavigationItem[] = [
 ];
 
 export const footerNavigation: NavigationItem[] = [
-  {
-    to: '/transparency',
-    label: 'Transparency',
-  },
-  {
-    to: '/imprint',
-    label: 'Imprint',
-  },
+  // {
+  //   to: '/transparency',
+  //   label: 'Transparency',
+  // },
+  // {
+  //   to: '/imprint',
+  //   label: 'Imprint',
+  // },
 ];

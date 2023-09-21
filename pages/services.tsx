@@ -16,21 +16,21 @@ const baseUrl = getBaseUrl();
 
 const seoProps = generateSeoProps({
   url: `${baseUrl}/services`,
-  title: 'Product & Web Development Services by Konstantin Münster',
+  title: 'Product & Web Development Services by Abdul Jaseem',
   description:
-    'I am a freelance web / product developer with over 5 years of experience and a background in product management.',
+    'I am a freelance web / product developer with over 3 years of experience and a background in product management.',
 });
 
 const jsonLdProps: OrganizationJsonLdProps = {
   type: 'Corporation',
-  name: 'Konstantin Münster',
+  name: 'Abdul Jaseem',
   url: `${baseUrl}/services`,
   logo: `${baseUrl}/images/logo-k.png`,
   contactPoints: [
     {
       contactType: 'Inquiries & Support',
       email: getEmailAddress(socialProfiles),
-      availableLanguage: ['English', 'German'],
+      availableLanguage: ['English'],
     },
   ],
   makesOffer: [
@@ -38,7 +38,7 @@ const jsonLdProps: OrganizationJsonLdProps = {
       itemOffered: {
         name: 'Product & Web Development Services',
         description:
-          'I am a freelance web / product developer with over 5 years of experience and a background in product management.',
+          'I am a freelance web / product developer with over 3 years of experience and a background in product management.',
       },
     },
   ],
