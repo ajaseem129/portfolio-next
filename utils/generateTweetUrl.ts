@@ -6,15 +6,15 @@ export const generateTweetUrl = (
   matter: EnrichedBlogPostMatter | EnrichedProjectMatter
 ) => {
   const twitterUrl = 'https://twitter.com/intent/tweet';
-
+  const baseUrl = 'https://drak.tbag.life';
   if (matter.path.includes(MDXContentType.Project)) {
     const projectMatter = matter as EnrichedProjectMatter;
-    return `${twitterUrl}?text=${projectMatter.name} by Konstantin Münster&url=https://konstantin.digital${projectMatter.path}`;
+    return `${twitterUrl}?text=${projectMatter.name} by Abdul Jaseem&url=${baseUrl}${projectMatter.path}`;
   }
 
   if (matter.path.includes(MDXContentType.BlogPost)) {
     const blogPostMatter = matter as EnrichedBlogPostMatter;
-    return `${twitterUrl}?text=${blogPostMatter.title} by Konstantin Münster&url=https://konstantin.digital${blogPostMatter.path}`;
+    return `${twitterUrl}?text=${blogPostMatter.title} by Abdul Jaseem&url=${baseUrl}${blogPostMatter.path}`;
   }
 
   return twitterUrl;
