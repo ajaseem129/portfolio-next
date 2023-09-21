@@ -2,11 +2,11 @@ export const serviceDefinitions = [
   {
     emoji: '👨‍💻',
     name: 'Support Your Team',
-    summary: 'I will join your team as a product & web developer.',
+    summary: 'I will join your team as a web developer.',
     content: {
       title: {
         prefix: 'I will integrate as a ',
-        highlight: 'product & web developer in your team',
+        highlight: 'web developer in your team',
         suffix: '.',
       },
       description: [
@@ -15,11 +15,12 @@ export const serviceDefinitions = [
         'Below you find roles I love pursuing. Usually, I join teams as a web developer who takes over some managerial or product part too.',
       ],
       examples: [
-        'Product Developer',
         'Web Developer',
         'Frontend Developer',
+        'Backend Developer',
         'Engineering Manager',
-        'Product Manager',
+        'Product Developer',
+        'Solutions Architect',
       ],
     },
   },
@@ -44,25 +45,44 @@ export const serviceDefinitions = [
         'E-Commerce Applications',
         'Websites',
         'Product Concept',
+        'Mobile Applications',
       ],
     },
   },
 ];
 
 export const technologies = [
-  {
-    name: 'HTML/CSS',
-  },
-  {
-    name: 'JavaScript',
-  },
-  {
-    name: 'TypeScript',
-  },
+  // {
+  //   name: 'HTML/CSS',
+  // },
+  // {
+  //   name: 'JavaScript',
+  // },
+  // {
+  //   name: 'TypeScript',
+  // },
   {
     name: 'React.js',
   },
   {
     name: 'Node.js',
+  },
+  {
+    name: 'Next.js',
+  },
+  {
+    name: 'Python',
+  },
+  {
+    name: 'Django',
+  },
+  {
+    name: 'Flutter',
+  },
+  {
+    name: 'Dart',
+  },
+  {
+    name: 'AWS',
   },
 ];
