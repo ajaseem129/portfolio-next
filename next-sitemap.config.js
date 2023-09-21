@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 const config = {
-  siteUrl: 'https://konstantin.digital',
+  siteUrl: 'https://drak.tbag.life',
   generateRobotsTxt: true,
 };
 
